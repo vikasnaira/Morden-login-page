@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor:default;
+}
+.main{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+.box{
+    background: rgb(210, 173, 173);
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    width: 70%;
+    border-radius:100px;
+    overflow: hidden;
+    border: 1px solid blue;
+    box-shadow: 2px 2px 10px  white;
+    display: flex;
+}
+.slider{
+    height: 80vh;
+    width: 50%;
+    background-image: linear-gradient(rgb(18, 4, 77),rgb(69, 74, 77));
+    position: absolute;
+    box-shadow: inset 1px 1px 20px white;
+    border-radius: 100px;
+    padding: 150px;
+    text-wrap: nowrap;
+    color: white;
+    right:0; 
+}
+.slider h1{
+    font-weight: 400;
+}
+.slider h4{
+    font-weight: 300;
+    margin-top:10px;
+}
+.slider button{
+    width:130px;
+    height:40px;
+    color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-left: 20px;
+    background-color: transparent;
+}
+.cont1{
+    height:100%;
+    width:50%;
+    position: absolute;
+    align-items:center;
+    gap:20px;
+    display:flex;
+    flex-direction: column;
+    transition-timing-function:linear;
+    padding:100px;
+}
+.cont1 h1{
+    border: none;
+}
+.logo i{
+    font-size:25px;
+    border: 1px solid black;
+    padding:10px;
+    border-radius:10px;
+    margin:5px;
+    gap: 10px;
+    transition: 0.4s;
+}
+i:hover{
+    background-color:black;
+    color: white;
+}
+.cont1 h4{
+    font-weight: 400;
+}
+.cont1 input{
+    width:220px;
+    border-radius:10px;
+    border: 1px solid black;
+    padding-left: 10px;
+    background-color: rgba(0, 255, 255, 0.384);
+    color: black;
+    height: 30px;
+    cursor: pointer;
+    left:0;
+}
+.cont1 h3{
+    font-weight: 200;
+    color: rgb(38, 0, 255);
+    cursor: pointer;
+}
+button{
+    background-color:blue;
+    width:150px;
+    height:50px;
+    border:none;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+}
+.cont2{
+    height:100%;
+    width:50%;
+    align-items:center;
+    position: absolute;
+    gap:20px;
+    left:-540px;
+    z-index:0;
+    display:flex;
+    flex-direction: column;
+    padding:100px;
+    transition-timing-function:linear;
+}
+.cont2 input{
+    width:220px;
+    border-radius:10px;
+    border: 1px solid black;
+    padding-left: 10px;
+    cursor: pointer;
+    height:20px;
+    background-color: rgba(0, 255, 255, 0.384);
+    padding:15px;
+    color:black;
+}
+button:hover{
+    background-color:white;
+    color:black;
+    font-weight: 700;
+    transition: 0.3s;
+}
+#vk{
+    cursor: pointer;
+    background-color: red;
+}
+#vk:hover{
+    color:black;
+    background-color: white;
+}
